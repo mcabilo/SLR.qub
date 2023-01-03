@@ -395,6 +395,7 @@ var stemmer = function () {
             for(metric in pars.vars){
              url += "&vars[]="+metric+':'+pars['vars'][metric];
             };
+            console.log(url);
             return url;
         }
         $this.logit = function (pars){
