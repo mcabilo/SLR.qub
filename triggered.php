@@ -1,5 +1,4 @@
 <?php
-    
     $handle = new SQLite3('metrics.sqlite');
     $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
     $result = $handle->query('insert into session (ip) values ("'.$ip.'")');
