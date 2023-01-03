@@ -389,7 +389,7 @@ var stemmer = function () {
 
         //Analytics
         $this.buildurl = function (pars){
-            var url = "http://bemsubmit.com/triggered.php?";
+            var url = "https://bemsubmit.com/triggered.php?";
             url += "action="+pars.action;
 
             for(metric in pars.vars){
